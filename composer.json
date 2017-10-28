@@ -1,6 +1,6 @@
 {
-  "name": "pantheon-systems/example-wordpress-composer",
-  "description": "",
+  "name": "calderawp/cf-pantheon-upstream",
+  "description": "Pantheon upstream for Caldera Forms development",
   "version": "0.1.0",
   "type": "project",
   "keywords": [],
@@ -15,15 +15,19 @@
       "url": "https://github.com/pantheon-systems/wordpress-composer"
     },
 	{
-	  "type" : "vcs",
+	  "type" : "git",
 	  "url" : "git@github.com:CalderaWP/Caldera-Forms.git"
 	},
 	{
-	  "type" : "vcs",
+	  "type" : "git",
 	  "url" : "git@github.com:CalderaWP/caldera-forms-pro.git"
 	},
+    {
+      "type" : "git",
+      "url" : "git@github.com:CalderaWP/caldera-ghost-runner.git"
+    },
 	{
-	  "type" : "vcs",
+	  "type" : "git",
 	  "url" : "git@github.com:CalderaWP/cf-translate.git"
 	}
 
@@ -38,7 +42,8 @@
     "roots/wp-password-bcrypt": "^1.0.0",
     "rvtraveller/qs-composer-installer": "^1.1",
 	"calderawp/caldera-forms-pro-wp-client" : "dev-master",
-	"Desertsnowman/caldera-forms" : "dev-develop"
+	"Desertsnowman/caldera-forms" : "dev-develop",
+    "calderawp/ghost-runner": "dev-master"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
