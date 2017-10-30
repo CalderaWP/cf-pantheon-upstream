@@ -43,7 +43,8 @@
     "rvtraveller/qs-composer-installer": "^1.1",
 	"calderawp/caldera-forms-pro-wp-client" : "dev-master",
 	"Desertsnowman/caldera-forms" : "dev-develop",
-    "calderawp/ghost-runner": "dev-master"
+    "calderawp/ghost-runner": "dev-master",
+    "calderawp/cf-translate": "dev-master"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",

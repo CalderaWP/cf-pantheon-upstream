@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8613db3c66ef919c4d0518b6a5f6bd03",
+    "content-hash": "e63d4a972f7c54fbb665059752c80062",
     "packages": [
         {
             "name": "Desertsnowman/caldera-forms",
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CalderaWP/Caldera-Forms.git",
-                "reference": "0c4a6dbbac3779711f6188e86aa33f895e5565df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CalderaWP/Caldera-Forms/zipball/0c4a6dbbac3779711f6188e86aa33f895e5565df",
-                "reference": "0c4a6dbbac3779711f6188e86aa33f895e5565df",
-                "shasum": ""
+                "url": "git@github.com:CalderaWP/Caldera-Forms.git",
+                "reference": "d050f76ad8ed23a18c258ebac59ad1c46e2ab2fb"
             },
             "type": "wordpress-plugin",
             "license": [
@@ -38,18 +32,14 @@
                 "forms",
                 "wordpress"
             ],
-            "support": {
-                "source": "https://github.com/CalderaWP/Caldera-Forms/tree/develop",
-                "issues": "https://github.com/CalderaWP/Caldera-Forms/issues"
-            },
-            "time": "2017-10-28T04:40:55+00:00"
+            "time": "2017-10-29T02:06:54+00:00"
         },
         {
             "name": "calderawp/caldera-forms-pro-wp-client",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CalderaWP/caldera-forms-pro.git",
+                "url": "git@github.com:CalderaWP/caldera-forms-pro.git",
                 "reference": "d904736c3972727abe5dcda607c0041806486192"
             },
             "dist": {
@@ -90,18 +80,40 @@
             "time": "2017-10-27T02:12:37+00:00"
         },
         {
+            "name": "calderawp/cf-translate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:CalderaWP/cf-translate.git",
+                "reference": "369f50a307bee6017202f90668414b96946054ea"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Pollock",
+                    "homepage": "https://JoshPress.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Translate Caldera Forms",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-10-18T22:29:30+00:00"
+        },
+        {
             "name": "calderawp/ghost-runner",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CalderaWP/caldera-ghost-runner.git",
-                "reference": "103b27bb29423d7d20bb816a70778fd039c69108"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CalderaWP/caldera-ghost-runner/zipball/103b27bb29423d7d20bb816a70778fd039c69108",
-                "reference": "103b27bb29423d7d20bb816a70778fd039c69108",
-                "shasum": ""
+                "url": "git@github.com:CalderaWP/caldera-ghost-runner.git",
+                "reference": "f5551b444e0b5a902d763f609515148c43d1c996"
             },
             "require": {
                 "calderawp/object": "*",
@@ -123,15 +135,11 @@
             "authors": [
                 {
                     "name": "Josh Pollock",
-                    "email": "Josh@JoshPress.net"
+                    "email": "Josh@CalderaWP.com"
                 }
             ],
             "description": "Ghost Inspector Client as a WordPress Plugin",
-            "support": {
-                "source": "https://github.com/CalderaWP/caldera-ghost-runner/tree/master",
-                "issues": "https://github.com/CalderaWP/caldera-ghost-runner/issues"
-            },
-            "time": "2017-10-28T21:01:22+00:00"
+            "time": "2017-10-30T01:38:12+00:00"
         },
         {
             "name": "calderawp/object",
@@ -2980,12 +2988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "149932d2f86c3e19dd1ab54f542770bd7bfc689c"
+                "reference": "9660ad3b85be3e3b90eacb9be3fcf7d12be60a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/149932d2f86c3e19dd1ab54f542770bd7bfc689c",
-                "reference": "149932d2f86c3e19dd1ab54f542770bd7bfc689c",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9660ad3b85be3e3b90eacb9be3fcf7d12be60a90",
+                "reference": "9660ad3b85be3e3b90eacb9be3fcf7d12be60a90",
                 "shasum": ""
             },
             "conflict": {
@@ -2993,7 +3001,7 @@
                 "amphp/artax": ">=2,<2.0.6|<1.0.6",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
-                "cakephp/cakephp": ">=3,<3.0.15|>=2,<2.4.99|>=2.5,<2.5.99|>=2.6,<2.6.12|>=1.3,<1.3.18|>=2.7,<2.7.6|>=3.1,<3.1.4",
+                "cakephp/cakephp": ">=2,<2.4.99|>=2.5,<2.5.99|>=2.6,<2.6.12|>=2.7,<2.7.6|>=3,<3.0.15|>=1.3,<1.3.18|>=3.1,<3.1.4",
                 "cart2quote/module-quotation": ">=4.1.6,<=4.4.5|>=5,<5.4.4",
                 "cartalyst/sentry": "<2.1",
                 "codeigniter/framework": "<=3.0.6",
@@ -3033,6 +3041,7 @@
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
                 "phpmailer/phpmailer": ">=5,<5.2.24",
+                "phpxmlrpc/extras": "<6.0.1",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "shopware/shopware": "<5.2.25",
@@ -3053,8 +3062,8 @@
                 "symfony/http-kernel": ">=2,<2.3.29|>=2.4,<2.5.12|>=2.6,<2.6.8",
                 "symfony/routing": ">=2,<2.0.19",
                 "symfony/security": ">=2.3,<2.3.37|>=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9",
-                "symfony/security-core": ">=2.8,<2.8.6|>=3,<3.0.6|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2.4,<2.6.13|>=2.7,<2.7.9",
-                "symfony/security-http": ">=2.4,<2.7.13|>=2.3,<2.3.41|>=2.8,<2.8.6|>=3,<3.0.6",
+                "symfony/security-core": ">=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2.8,<2.8.6|>=3,<3.0.6",
+                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.13|>=2.8,<2.8.6|>=3,<3.0.6",
                 "symfony/serializer": ">=2,<2.0.11",
                 "symfony/symfony": ">=2,<2.3.41|>=2.4,<2.7.13|>=2.8,<2.8.6|>=3,<3.0.6|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5",
                 "symfony/translation": ">=2,<2.0.17",
@@ -3110,7 +3119,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-10-28T04:18:44+00:00"
+            "time": "2017-10-29T18:43:15+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -4830,6 +4839,7 @@
         "calderawp/caldera-forms-pro-wp-client": 20,
         "desertsnowman/caldera-forms": 20,
         "calderawp/ghost-runner": 20,
+        "calderawp/cf-translate": 20,
         "roave/security-advisories": 20,
         "wp-coding-standards/wpcs": 20
     },

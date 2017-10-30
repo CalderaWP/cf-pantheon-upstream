@@ -309,7 +309,18 @@ function calderaGhostRunnerFormUrl( $formId ){
  * @return mixed|null
  */
 function calderaGhostRunnerEnv( $var, $default = null ){
-	return isset( $_ENV, $_ENV[ $var ] ) ? $_ENV[ $var ] :
-		defined( $var ) ? constant( $var ) :
-			$default;
+	$value = getenv( $var );
+	if( is_null( $value ) && defined( strtoupper( $var ) ) ){
+		$value = constant( strtoupper( $var ) );
+	}
+
+	if( is_null( $value ) ){
+		$value = $default;
+	}
+
+	/**
+	 * Change value of env var
+	 */
+	return apply_filters( 'calderaGhostRunner.env.'. $var, $value );
+
 }
